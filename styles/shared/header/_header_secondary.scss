@@ -1,0 +1,83 @@
+.header {
+  &-secondary {
+    background: $white;
+
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @include media-breakpoint-up(lg) {
+      background: $brand-primary url(/images/banners/banner-01.jpg) center
+        center / cover no-repeat;
+      height: 497px;
+      width: 100%;
+    }
+  }
+
+  &-controls {
+    ul {
+      display: flex;
+      gap: 22px;
+
+      li {
+        font-size: 22px;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-right: 136px;
+      display: inline-block;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        font-size: 22px;
+        gap: 30px;
+
+        li:first-child {
+          font-size: 14px;
+
+          .search {
+            border: none;
+            background: none;
+          }
+
+          #search {
+            border: 0px;
+          }
+
+          .header-search-controls {
+            border: 1px solid $brand-primary;
+          }
+        }
+      }
+    }
+  }
+
+  &-site-name h1 {
+    text-transform: uppercase;
+    font-family: 'Baskerville Old Face';
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  @include media-breakpoint-up(lg) {
+    &-connect {
+      padding-left: 136px;
+      display: inline-block;
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        gap: 30px;
+
+        li {
+          color: $white;
+          font-family: 'Playfair Display';
+        }
+      }
+    }
+  }
+}

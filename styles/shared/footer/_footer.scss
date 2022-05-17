@@ -1,0 +1,163 @@
+.footer {
+  background-color: $brand-secondary;
+
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 22px;
+    color: $brand-primary;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+  }
+
+  &-inner {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      line-height: 35px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display';
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .footer-connect {
+      text-align: center;
+
+      label {
+        font-size: 15px;
+
+        @include media-breakpoint-up(lg) {
+          font-size: 22px;
+        }
+      }
+
+      form {
+        #email {
+          font-size: 12px;
+          width: 75%;
+          // margin: auto 57px;
+          padding: 0px 10px;
+          text-transform: capitalize;
+
+          @include media-breakpoint-up(lg) {
+            display: inline-block;
+            margin: 0px;
+            height: 34px;
+            width: 100%;
+          }
+        }
+
+        .button-submit {
+          text-transform: uppercase;
+          font-size: 12px;
+          border: 1px solid $brand-primary;
+          border-radius: 0%;
+          margin: auto 160px;
+
+          @include media-breakpoint-up(lg) {
+            margin: 0px;
+            padding: 0 8px;
+            height: 30px;
+            width: 30%;
+            font-family: 'Roboto';
+            align-self: flex-start;
+          }
+        }
+      }
+
+      p {
+        font-size: 12px;
+        margin: auto 57px;
+      }
+
+      .footer-social {
+        ul {
+          display: flex;
+          justify-content: center;
+          gap: 24px;
+
+          @include media-breakpoint-up(lg) {
+            justify-content: flex-start;
+          }
+        }
+
+        li {
+          font-size: 22px;
+        }
+      }
+    }
+
+    .footer-nav {
+      background-color: $gray-primary;
+      color: $white;
+      text-align: center;
+
+      @include media-breakpoint-up(lg) {
+        background-color: $brand-secondary;
+        color: $brand-primary;
+      }
+
+      p > a {
+        font-size: 14px;
+      }
+
+      &-menu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+
+        @include media-breakpoint-up(lg) {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+
+        ul {
+          line-height: 30px;
+
+          @include media-breakpoint-up(lg) {
+            line-height: 35px;
+            text-align: left;
+          }
+
+          li {
+            font-size: 16px;
+
+            @include media-breakpoint-up(lg) {
+              font-size: 22px;
+            }
+          }
+        }
+
+        ul:first-of-type {
+          padding-left: 60px;
+          border-left: 1px solid $brand-secondary;
+
+          @include media-breakpoint-up(lg) {
+            padding-left: 0px;
+            padding-right: 100px;
+          }
+        }
+
+        ul:nth-of-type(2) {
+          @include media-breakpoint-up(lg) {
+            padding-left: 100px;
+          }
+        }
+      }
+
+      .footer-terms {
+        font-weight: 300;
+      }
+    }
+  }
+}

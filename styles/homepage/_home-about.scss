@@ -1,0 +1,62 @@
+.home-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @include media-breakpoint-up(lg) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 0;
+  }
+
+  &-photo {
+    img {
+      width: 100%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      img {
+        width: auto;
+      }
+    }
+  }
+
+  &-info {
+    h1 {
+      font-family: 'PlayFair Display';
+      font-size: 18px;
+      font-weight: bold;
+      margin: 24px 0 12px 0;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 44px;
+        margin: 0px 0px 12px 0;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: 0.24px;
+      line-height: 32px;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 22px;
+        letter-spacing: 0.33px;
+        line-height: 43px;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 551px;
+      margin: 0 0 0 120px;
+    }
+  }
+
+  :nth-of-type(1) p {
+    @include media-breakpoint-up(lg) {
+      margin: 40px 0 68px 0;
+    }
+  }
+}

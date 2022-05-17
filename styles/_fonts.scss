@@ -231,3 +231,18 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Baskerville Old Face';
+  src: url('//db.onlinewebfonts.com/t/9ecec61376083fd290b75d94fdaca380.eot');
+  src: url('//db.onlinewebfonts.com/t/9ecec61376083fd290b75d94fdaca380.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/9ecec61376083fd290b75d94fdaca380.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/9ecec61376083fd290b75d94fdaca380.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/9ecec61376083fd290b75d94fdaca380.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/9ecec61376083fd290b75d94fdaca380.svg#Baskerville Old Face')
+      format('svg');
+}

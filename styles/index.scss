@@ -1,5 +1,31 @@
 @import './fonts';
 
+// fontawesome
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
+
+// bootstrap
+@import './../node_modules/bootstrap/scss/bootstrap-reboot';
+@import './../node_modules/bootstrap/scss/bootstrap-grid';
+@import './../node_modules/bootstrap/scss/bootstrap-utilities';
+@import './../node_modules/bootstrap/scss/images';
+@import './../node_modules/bootstrap/scss/buttons';
+@import './../node_modules/bootstrap/scss/button-group';
+
+@import 'variables';
+
+@import './shared/index';
+@import './reset';
+
+@import './homepage/index';
+
+@import './catalog/index';
+
+@import url(//db.onlinewebfonts.com/c/9ecec61376083fd290b75d94fdaca380?family=Baskerville+Old+Face);
+
 body {
   font-family: 'Roboto', 'sans-serif';
+  color: $brand-primary;
 }

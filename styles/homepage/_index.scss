@@ -1,0 +1,15 @@
+@import './home-catalog-preview';
+@import './home-about';
+
+.product-tiles {
+  :nth-child(3),
+  :nth-child(4) {
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+      display: block;
+    }
+  }
+
+  gap: 10.5px;
+}

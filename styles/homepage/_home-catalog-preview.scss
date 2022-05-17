@@ -1,0 +1,56 @@
+.home-catalog-preview {
+  margin: 12px 0;
+  font-family: 'PlayFair Display';
+
+  & > header h1 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-top: 1px solid $brand-secondary;
+    padding-top: 12px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 35px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin: 24px auto;
+  }
+
+  &:nth-last-child(2) > header h1 {
+    text-transform: uppercase;
+  }
+
+  &:last-child > header h1 {
+    text-transform: uppercase;
+  }
+
+  & > footer {
+    text-align: center;
+    margin: 60px auto;
+    font-size: 22px;
+    font-family: 'Roboto';
+
+    a {
+      border: 1px solid $brand-primary;
+      padding: 6px 10px;
+      color: $brand-primary;
+      transition: color 0.2s linear, background-color 0.2s linear;
+
+      &:hover {
+        color: $brand-secondary;
+        background-color: $brand-primary;
+      }
+    }
+  }
+
+  &:last-child > footer a {
+    font-size: 12px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 22px;
+      border: none;
+    }
+  }
+}
