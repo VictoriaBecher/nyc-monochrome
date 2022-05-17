@@ -116,7 +116,7 @@ export default function Footer() {
 
         <section className="footer-connect">
           <section className="footer-newsletter">
-            <h1 className="d-lg-none my-4">Let's connect</h1>
+            <h1 className="d-lg-none my-4">Lets connect</h1>
             <label htmlFor="email" className="d-lg-none mb-2">
               Be the first to receive exclusives offers
             </label>

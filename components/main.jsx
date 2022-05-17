@@ -54,7 +54,7 @@ export default function Main() {
 
       <section className="home-catalog-preview container">
         <header>
-          <h1 className="section-title">Men's</h1>
+          <h1 className="section-title">Mens</h1>
         </header>
 
         <section className="product-tiles  d-flex justify-content-between">
@@ -76,7 +76,7 @@ export default function Main() {
 
       <section className="home-catalog-preview container">
         <header>
-          <h1 className="section-title">Women's</h1>
+          <h1 className="section-title">Womens</h1>
         </header>
 
         <section className="product-tiles  d-flex justify-content-between">
