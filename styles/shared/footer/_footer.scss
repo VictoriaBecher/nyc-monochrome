@@ -64,6 +64,7 @@
           border-radius: 0%;
           margin: auto 160px;
           background-color: transparent;
+          color: $brand-primary;
 
           @include media-breakpoint-up(lg) {
             margin: 0px;
