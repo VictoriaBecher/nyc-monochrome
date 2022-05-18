@@ -166,14 +166,6 @@ export default function Header() {
           </nav>
         </div>
       </section>
-
-      <section className="header-mobile-banner d-lg-none">
-        <div className="header-banner-inner container">
-          <button className="button button-new button-sm button-uppercase">
-            new in
-          </button>
-        </div>
-      </section>
     </header>
   );
 }

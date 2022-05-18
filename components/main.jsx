@@ -16,6 +16,14 @@ import HomeAbout from './homepage/_home-about';
 export default function Main() {
   return (
     <main className="content-main">
+      <section className="mobile-banner d-lg-none">
+        <div className="banner-inner container">
+          <button className="button button-new button-sm button-uppercase">
+            new in
+          </button>
+        </div>
+      </section>
+
       <section className="home-catalog-preview container">
         <header>
           <h1 className="section-title d-none d-lg-block">New Stuff</h1>
