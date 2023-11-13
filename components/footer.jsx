@@ -170,7 +170,7 @@ export default function Footer() {
 
           <section className="footer-social">
             <h1 className="d-lg-none my-4">We are highly likeable</h1>
-            <ul className="mb-3 my-lg-4">
+            <ul className="mt-1 mb-3">
               <li>
                 <a
                   href="https://youtube.com"
