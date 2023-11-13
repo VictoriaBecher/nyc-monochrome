@@ -94,7 +94,7 @@ export default function Header() {
               </li>
 
               <li>
-                <a href="" title="Shopping-bag-controls">
+                <a href="" title="Shopping bag">
                   <i className="fa-solid fa-bag-shopping"></i>
                 </a>
               </li>
