@@ -30,6 +30,14 @@
       font-weight: 500;
     }
 
+    .footer-contact {
+      ul li:nth-of-type(2) :hover,
+      li:nth-of-type(3) :hover,
+      li:nth-of-type(4) :hover {
+        color: $gray-primary;
+      }
+    }
+
     .footer-connect {
       text-align: center;
 
@@ -136,6 +144,10 @@
 
             @include media-breakpoint-up(lg) {
               font-size: 22px;
+            }
+
+            &:hover {
+              color: $gray-primary;
             }
           }
         }
